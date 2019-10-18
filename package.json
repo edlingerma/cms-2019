@@ -1,0 +1,24 @@
+{
+  "name": "cms-2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edlingerma/cms-2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edlingerma/cms-2019/issues"
+  },
+  "homepage": "https://github.com/edlingerma/cms-2019#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2"
+  }
+}
