@@ -2,7 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./index.js",
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist")
@@ -19,7 +19,7 @@ module.exports = {
         use: {
           loader: "file-loader",
           options: {
-          name: "./src/images/[hash].[ext]"
+          name: "./img/[hash].[ext]"
             },
         },
       },
@@ -28,7 +28,7 @@ module.exports = {
   
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./index.html",
+      template: "index.html",
       inject: true
     })
   ]
