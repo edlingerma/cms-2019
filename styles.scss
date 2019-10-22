@@ -17,14 +17,15 @@ h2{
 #services{
     box-sizing: border-box;
 
+    h2{
+        margin-bottom:0;
+    }
+
     #links{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        // padding: 2%;
     }
-
-            
 
     #yellow{
         background-color:rgb(252, 252, 180);
@@ -52,7 +53,36 @@ h2{
             max-width:50%;
         }
     }
-}    
+} 
+
+
+#news{
+    line-height: 1.5rem;
+
+    ul{
+        list-style: none;
+        padding: 1%;
+        border-radius: 1%/10%;;
+        background-color: rgb(252, 138, 138);
+
+        a{
+            color: #00b9f2;
+        }
+    }
+}
+
+
+#references{
+
+    #grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+
+    
+}
 
 header{
     background-image: url("./img/illuminated-keyboard-1242287.jpg");
