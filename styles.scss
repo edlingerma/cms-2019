@@ -5,6 +5,7 @@ html {
 a{
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
 h2{
@@ -107,5 +108,44 @@ header{
         border: none;
         border-radius: 3%;
         padding: 1%;
+        margin-bottom: 3%;
+        cursor: pointer;
+    }
+}
+
+footer{
+    background-color: #00b9f2;
+    color: white;
+    padding: 0 3%;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            li{
+                padding-left: 1%;
+            }
+
+        }
+    }
+    p{
+        margin-right: 50%;
+    }
+    
+    .small{
+        margin:0;
+        li:not(nav){
+            font-size:0.7rem;
+        }
+    }
+    
+    h3{
+        font-weight: normal;
+        margin:0;
+        padding:0;
     }
 }
