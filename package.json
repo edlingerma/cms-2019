@@ -2,9 +2,11 @@
   "name": "cms-2019",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --config webpack.config.js --mode development",
+    "build": "webpack --config webpack.config.js --mode production",
+    "preview": "npm run build && http-server dist"
   },
   "repository": {
     "type": "git",
