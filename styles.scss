@@ -5,3 +5,26 @@ html {
 h2{
     color: red;
 }
+
+#services{
+    box-sizing: border-box;
+
+    #links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    a{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    img{
+        max-width:80%;
+        padding: 10%;
+    }
+    
+
+}
