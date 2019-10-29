@@ -75,8 +75,8 @@ h2{
 
 
 #references{
-
-    #grid{
+    @media screen and (min-width: 1000px){
+        #grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -193,7 +193,39 @@ h2{
             }
         }
 
+        }
     }
+
+    @media screen and (max-width: 999px){
+        #grid{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 5% 0;
+            padding: 3%;
+            background-color: #00b9f2;
+
+            img{
+                width: 50%;
+                height: 50%;
+            }
+            #qq{
+                background-color: #00b9f2;
+            }
+            .responsiveYellow{
+                background-color:#fffad8;
+            }
+            .responsiveGreen{
+                background-color: #d8edd6;
+            }
+            .responsiveBlue{
+                background-color:#c6effc;
+            }
+        }
+    }
+    
 
     
     
