@@ -205,23 +205,11 @@ h2{
             justify-content: center;
             margin: 5% 0;
             padding: 3%;
-            background-color: #00b9f2;
+            background: linear-gradient(180deg, rgba(255,250,216,1) 0%, rgba(255,250,216,1) 30%, rgba(198,239,252,1) 30%, rgba(198,239,252,1) 62%, rgba(216,237,214,1) 62%, rgba(216,237,214,1) 92%, rgba(0,185,242,1) 92%, rgba(0,185,242,1) 100%);
 
             img{
                 width: 50%;
                 height: 50%;
-            }
-            #qq{
-                background-color: #00b9f2;
-            }
-            .responsiveYellow{
-                background-color:#fffad8;
-            }
-            .responsiveGreen{
-                background-color: #d8edd6;
-            }
-            .responsiveBlue{
-                background-color:#c6effc;
             }
         }
     }
