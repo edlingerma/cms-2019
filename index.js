@@ -11,5 +11,3 @@ function hideMenu() {
 
 document.getElementById("burger").addEventListener("click", displayMenu);
 document.getElementById("hide").addEventListener("click", hideMenu); 
-
-// window.addEventListener('resize', displayMenu);
