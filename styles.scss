@@ -278,6 +278,45 @@ header{
         margin-bottom: 3%;
         cursor: pointer;
     }
+
+    #burger{
+        display: none;
+    }
+    #hide{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    //header
+    header{
+        #menu{
+            flex-direction: column;
+            display:none;
+            position:absolute;
+            background-color: white;
+            width: 100%;
+        }
+
+        #burger{
+            display:block;
+            padding: 0 5% 0 5%;
+            background-color:#00b9f2;
+        }
+
+        #hide{
+            display: block;
+        }
+
+        h2{
+            margin-left: 1%;
+        }
+        button{
+            margin-left: 1%;
+        }
+    }
+
 }
 
 footer{
@@ -324,6 +363,19 @@ footer{
     #links{
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    // footer
+    footer{
+        nav{
+            flex-direction: column;
+            justify-content: flex-start;
+
+            ul{
+                flex-direction: column;
+            }
+
+        }
     }
 
 }
