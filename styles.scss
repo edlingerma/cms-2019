@@ -24,11 +24,17 @@ h2{
     background-color:#c6effc;
 }
 
+
+#news, #references{
+    padding: 0 2%;
+}
+
 #services{
     box-sizing: border-box;
 
     h2{
         margin-bottom:0;
+        padding-left: 2%;
     }
 
     #links{
