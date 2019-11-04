@@ -268,8 +268,6 @@ header{
             display: flex;
             justify-content: space-around;
             margin: 0;
-            padding: 0;
-            
            
             li{
                 margin: 0.5rem;
@@ -304,34 +302,45 @@ header{
         cursor: pointer;
     }
 
-    #burger{
+    input, label{
         display: none;
     }
-    #hide{
-        display: none;
-    }
+
 }
 
 
 @media screen and (max-width: 1000px) {
     //header
     header{
+
+        label{
+            display: block;
+        }
+
+        img{
+            padding-top:0.5rem;
+            width: 2rem;
+        }
+
+        ul {
+            display: none;
+        }
+         
+        #activate-nav:checked ~ ul{
+            display: block;
+        }
+
         #menu{
             flex-direction: column;
             display:none;
             position:absolute;
             background-color: white;
             width: 100%;
+            margin-top: 3.25rem;
         }
 
-        #burger{
-            display:block;
-            padding: 0 5% 0 5%;
-            background-color:#00b9f2;
-        }
-
-        #hide{
-            display: block;
+        :not(#activate-nav:checked) ~ ul{
+            display: none;
         }
 
         h2{
