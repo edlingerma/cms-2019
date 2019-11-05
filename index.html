@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=News+Cycle&display=swap" rel="stylesheet">
-    <script src="index.js"></script>
-    <title>Screendsign</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <h1><a href=#>Alex Mayer</a></h1>
-            
-            <input type="checkbox" id="activate-nav">
-            <label for="activate-nav" id="menu-icon">
-                <img src="img/menu.svg" alt="Menu Burger icon">
-            </label>
-            <ul id="menu">
-                <li><a href=#>Start</a></li>
-                <li><a href=#>Leistung</a></li>
-                <li><a href=#>Blog</a></li>
-                <li><a href=#>Über mich</a></li>
-                <li><a href=#>Kontakt</a></li>
-            </ul>
-        </nav>
-        <h2><span class="highlight">Glänzende Ideen für leuchtende Augen</span></h2>
-        <button>Angebot einholen</button>
-    </header>
+<%= require("html-loader!./partials/header.html") %>
     <main>
         <section id="services">
             <h2>Leistungen</h2>
@@ -84,37 +54,4 @@
             </section>
         </section>
     </main>
-    <footer>
-        <nav>
-            <div id="left">
-                <p>&copy; Alex Mayer 2018</p>
-                <p>Demo-Wordpress-Seite im Rahem der LV, Content Management System' an der FH Salzburg von Maria Edlinger und Jonathan Lex </p>
-
-
-            </div>
-        
-           <ul>
-               <li><a href=#>Impressum</a></li>
-               <li id="strich">|</li>
-               <li><a href=#>Datenschutzerklärung</a></li>
-           </ul> 
-        </nav>
-       
-        <p>Alle Inhalte frei erfunden</p>
-        <p>Bildnachweis:</p>        
-        <h3>Fotos</h3>
-        <ul class="small">
-            <li>Herofoto Tastatur: Aman Andrson, http://de.freeimages.com/illuminated-keyboard-124228</li>
-            <li>Foto Dina Meyer by Dreifachaxel [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], from Wikimedia Commons</li>
-            <li>Foto THomas Meyer-Hermann By Thomas Meyer-Hermann (Thomas Meyer-Hermann) [GFDL (http://www.gnu.org/copyleft/fdl.html), CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0) or CC BY-SA3.0 de (https.//creative-commons.org/licenses/by-sa/3.0/de/deed.en)], via Wikimedia Commons https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Thomas_Meyer-Hermann_1.jpg/407px-Thomas_Meyer-Hermann_1.jpg</li>
-            <li>Foto Vorstand Sparkasse Ülzen [[File:SKUelzen Vorstand 2015.jpg|SKUelzen Vorstand 2015]] https://upload.wikimedia.org/wikipedia/commons/3/3e/SKUelzen_Vorstand_2015.jpg</li>
-        </ul>
-        
-        <h3>Icons</h3>
-        <ul class="small">
-            <li>Freepik (http://www.frekpik.com) / www.flaticon.com</li>
-        </ul>
-    </footer>
-    
-</body>
-</html>
+<%= require("html-loader!./partials/footer.html") %>

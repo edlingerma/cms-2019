@@ -20,7 +20,7 @@ module.exports = {
           "css-loader", "sass-loader"]
       },
       {
-        test: /\.(jpg|png)$/,
+        test: /\.(jpg|png|svg)$/,
         use: {
           loader: "file-loader",
           options: {
@@ -34,6 +34,11 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "index.html",
+      inject: true
+    }),
+    new HtmlWebpackPlugin({
+      template: "about.html",
+      filename: "about.html",
       inject: true
     }),
     new MiniCssExtractPlugin({
