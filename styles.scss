@@ -348,8 +348,13 @@ h2{
     }
     
 header{
-    background-image: url("./img/illuminated-keyboard-1242287.jpg");
-    background-size: 120% 120%;
+    &.index{
+        background-image: url("./img/illuminated-keyboard-1242287.jpg");
+        background-size: 120% 120%;
+    }
+    &.about{
+        background-image: url("./img/about.jpg");
+    }
     
     nav{
         display: flex;
