@@ -542,14 +542,14 @@ footer{
 #aboutme{
     div{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         padding: 1rem;
     }
 
     img{
         width:15%;
-        
+
     }
 
 }
