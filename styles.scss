@@ -423,6 +423,16 @@ header{
     input, label{
         display: none;
     }
+
+    label{
+        margin-top: 0.75rem;
+    }
+    .line{
+        display: block;
+        background: #555; width: 1.25rem; height: 0.2rem; 
+        margin-top: 0.2rem;
+        border-radius: 4px;
+    }
 }
 
 
