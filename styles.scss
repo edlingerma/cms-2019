@@ -238,6 +238,13 @@ h2{
     
             cite{
                 font-style: normal;
+                float:left;
+                padding-left: 0.5rem;
+            }
+
+            blockquote{
+                margin:0;
+                padding-left:0.5rem;
             }
             
             #tinaimg{
@@ -309,14 +316,11 @@ h2{
             #vc{
                 grid-column: 1 / 2;
                 grid-row: 8 / 9;
-                text-align:right;
-                float:right;
             }
     
             #vb{
                 grid-column: 1 / 2;
                 grid-row: 9 / 10;
-                margin-top: 5%;
             }
     
             #text{
