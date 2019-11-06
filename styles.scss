@@ -351,9 +351,19 @@ header{
     &.index{
         background-image: url("./img/illuminated-keyboard-1242287.jpg");
         background-size: 120% 120%;
+
+        #menu-index{
+            text-decoration-line: underline;
+            color: #00b9f2;
+        }
     }
     &.about{
         background-image: url("./img/about.jpg");
+
+        #menu-about{
+            text-decoration-line: underline;
+            color: #00b9f2;
+        }
     }
     
     nav{
