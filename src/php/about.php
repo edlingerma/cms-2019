@@ -1,4 +1,4 @@
-<?php include '/partials/header.php'; 
+<?php include 'partials/header.php'; 
 $pagetitle = "About";
 $headerclass ="about";
 
@@ -26,4 +26,4 @@ $headerclass ="about";
 
 </main>
 
-<?php include '/partials/footer.php'; ?>
+<?php include 'partials/footer.php'; ?>

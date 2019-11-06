@@ -1,4 +1,4 @@
-<?php include '/partials/header.php'; 
+<?php include 'partials/header.php'; 
 $pagetitle = "Alex Mayer";
 $headerclass ="index";
 ?>
@@ -57,5 +57,5 @@ $headerclass ="index";
             </section>
         </section>
     </main>
-<?php include '/partials/footer.php' ?>
+<?php include 'partials/footer.php' ?>
 

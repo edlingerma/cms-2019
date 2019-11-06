@@ -22,10 +22,10 @@
                 <span class="line"></span>
             </label>
             <ul id="menu">
-                <li><a id="menu-index" href=index.html>Start</a></li>
+                <li><a id="menu-index" href=index.php>Start</a></li>
                 <li><a href=#>Leistung</a></li>
                 <li><a href=#>Blog</a></li>
-                <li><a id="menu-about" href=about.html>Über mich</a></li>
+                <li><a id="menu-about" href=about.php>Über mich</a></li>
                 <li><a href=#>Kontakt</a></li>
             </ul>
         </nav>
